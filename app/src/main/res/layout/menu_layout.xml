@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Menu_Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="Marcas mais valiosas do mundo"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageButton
+        android:layout_width="162dp"
+        android:layout_height="136dp"
+        android:onClick="abrirPersonagem1"
+        android:src="@drawable/Amazonum" />
+
+    <ImageButton
+        android:layout_width="162dp"
+        android:layout_height="136dp"
+        android:onClick="abrirPersonagem2"
+        android:layout_weight=""
+        android:src="@drawable/Appledois" />
+
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageButton
+        android:layout_width="162dp"
+        android:layout_height="136dp"
+        android:onClick="abrirPersonagem"
+        android:src="@drawable/Googletres" />
+
+    <ImageButton
+        android:layout_width="162dp"
+        android:layout_height="136dp"
+        android:onClick="abrirPersonagem"
+        android:src="@drawable/Samsungquatro" />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageButton
+        android:layout_width="162dp"
+        android:layout_height="136dp"
+        android:onClick="abrirPersonagem"
+        android:src="@drawable/Facebookcinco" />
+
+    <ImageButton
+        android:layout_width="162dp"
+        android:layout_height="136dp"
+        android:onClick="abrirPersonagem"
+        android:src="@drawable/attlogoseis" />
+
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageButton
+        android:layout_width="162dp"
+        android:layout_height="136dp"
+        android:onClick="abrirPersonagem"
+        android:src="@drawable/microsoftsete" />
+
+    <ImageButton
+        android:layout_width="162dp"
+        android:layout_height="136dp"
+        android:onClick="abrirPersonagem"
+        android:src="@drawable/verizonoito" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageButton
+        android:layout_width="162dp"
+        android:layout_height="136dp"
+        android:onClick="abrirPersonagem"
+        android:src="@drawable/walmartnove" />
+
+    <ImageButton
+        android:layout_width="162dp"
+        android:layout_height="136dp"
+        android:onClick="abrirPersonagem"
+        android:src="@drawable/icbcdez" />
+
+    </LinearLayout>
+
+</LinearLayout>
