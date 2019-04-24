@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">marcas</string>
+    <string name="app_name">Redes sociais</string>
+    <string-array name="Filme">
+        <item>Mulher Maravilha</item>
+        <item>Super Man</item>
+        <item>Batman</item>
+        <item>Lanterna Verde</item>
+        <item>Aquaman</item>
+        <item>Flash</item>
+
+    </string-array>
 </resources>

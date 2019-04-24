@@ -9,16 +9,27 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Apple_Activity"></activity>
-        <activity android:name=".Amazon_Activity" />
+        <activity android:name=".Linkedin_Activity"></activity>
+        <activity android:name=".Reddit_Activity" />
+        <activity android:name=".Menudois_Activity" />
+        <activity android:name=".Twitter_Activity" />
+        <activity android:name=".Qzone_Activity" />
+        <activity android:name=".Qq_Activity" />
+        <activity android:name=".Instagram_Activity" />
+        <activity android:name=".Wechat_Activity" />
+        <activity android:name=".Whatsapp_Activity" />
+        <activity android:name=".Youtube_Activity" />
+        <activity android:name=".Facebook_Activity" />
         <activity android:name=".Menu_Activity" />
-        <activity android:name=".Login_Activity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".Login_Activity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+
         </activity>
     </application>
 

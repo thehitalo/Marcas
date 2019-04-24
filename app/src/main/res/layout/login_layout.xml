@@ -18,10 +18,10 @@
         android:orientation="vertical">
 
         <ImageView
-            android:layout_width="180dp"
-            android:layout_height="172dp"
+            android:layout_width="194dp"
+            android:layout_height="189dp"
             android:layout_gravity="center_horizontal"
-            android:src="@drawable/Appledois" />
+            android:src="@drawable/iconlandscape_dp" />
 
         <EditText
             android:id="@+id/edtUsuario"

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu_Activity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tlbPrincipal"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        >
+
+    </android.support.v7.widget.Toolbar>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selecione o sexo:"
+        android:layout_marginTop="67dp"
+        android:layout_marginLeft="10dp"/>
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masculino"
+            android:layout_marginTop="90dp"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Feminino"
+            android:layout_marginTop="0dp"/>
+
+
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lista de desejos:"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="10dp"/>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1,2,3">
+
+        <TableRow android:layout_height="506dp">
+
+            <CheckBox
+                android:layout_marginTop="205dp"
+                android:text="Música" />
+
+            <CheckBox
+
+                android:layout_marginTop="300dp"
+                android:text="Futebol" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="270dp"
+        android:text="Selecione seu filme"/>
+
+    <Spinner
+        android:id="@+id/spnFilmes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/Filme"
+        android:layout_marginTop="300dp"
+        style="@style/Base.TextAppearance.AppCompat.Widget.TextView.SpinnerItem">
+
+
+    </Spinner>
+
+    <Switch
+        android:id="@+id/swtSom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Som"
+        android:checked="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="350dp"
+        style="@style/Base.TextAppearance.AppCompat.Widget.TextView.SpinnerItem"/>
+
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_email_dp"
+        android:id="@+id/botaoflutuante"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        />
+
+</RelativeLayout>
